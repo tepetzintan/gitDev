@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+      <!--Formulario-->
+    <form action="">
+        <p>Nombre: </p><br>
+        <input type="text" name="nombre"><br>
+        <p>Correo: </p><br>
+        <input type="email" name="correo"><br>
+        <P>Contrasena: </P><br>
+        <input type="password" name="contrasena"><br>
+        <input type="submit" name="enviar">
+        <input type="reset">
+    </form>
+    <!--Formulario con campos de texto-->
+    <form action="">
+        <input type="radio" name="hombre" value="hombre" checked>Hombre</input><br>
+        <input type="radio" name="mujer" value="mujer" checked>Mujer</input><br>
+        <input type="checkbox" name="aceptar" value="fruta" checked>Como mucha fruta</input><br>
+        <input type="button" onclick="=alert"('Hola papasito')" value="Haz click">
+        
+        <p>Mi cumpleanos</p><br>
+        <input type="date" name="calendario">
+    </form>
+    <!--Listas desplegable-->
+<form class="listita">
+    <select name="lista" size="2">
+        <option>Monk</option>
+        <option selected>Specialized</option>
+        <option>Trek</option>
+        <option>Bianchi</option>
+        <option>Canyon</option>
+    </select>
+</form>
+
+<form>
+    <textarea name="texto" cols="30" rows="10" wrap="hard">Este no es el fin del mundo hermano</textarea>
+</form>
+
+</body>
+</html>

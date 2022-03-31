@@ -1,0 +1,52 @@
+/* Productos */
+body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    background: linear-gradient(rgba(84,93,220,.8), rgba(49, 253, 83, 0.7)), url(https://www.zikloland.com/wp-content/uploads/2020/11/team-jumbo-visma-bianchi-vuelta-espa%C3%B1a-2020-1024x681.jpeg);
+    height: 100vh;
+    background-size: cover;
+}
+header .contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+    margin-right: 15px;
+}
+#productos{
+    background: #75d0fa;
+}
+#productos .muestra{
+    width: 30%;
+    box-shadow: 2px 2px 14px #ccc;
+}
+
+#productos img{
+    width: 100%;
+}
+
+#producto .contenido{
+    background: #fff;
+    padding: 20px;
+}
+
+#productos h4{
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+#productos p{
+    color: cornflowerblue;
+    line-height: 24px;
+
+    font-size: 15px;
+}
